@@ -5,7 +5,8 @@ plugins {
 
 android {
     namespace = "com.example.tonottodo"
-    compileSdk = 34
+    compileSdk = 35
+    compileSdkVersion(35)
 
     defaultConfig {
         applicationId = "com.example.tonottodo"
@@ -42,6 +43,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    //implementation ("androidx.core:core-ktx:1.6.0") // 이전 버전으로 변경
+    //implementation ("androidx.core:core:1.6.0") // 이전 버전으로 변경
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
