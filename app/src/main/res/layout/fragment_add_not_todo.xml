@@ -230,12 +230,12 @@
             android:id="@+id/tv_btn_apply"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="@font/pretendard_700"
             android:gravity="center"
             android:text="적용하기"
             android:textAlignment="center"
-            android:textSize="14sp"
             android:textColor="@color/white"
-            android:fontFamily="@font/pretendard_700" />
+            android:textSize="14sp" />
 
     </androidx.cardview.widget.CardView>
 

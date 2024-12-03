@@ -247,21 +247,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <Button
+    <androidx.cardview.widget.CardView
         android:id="@+id/btn_condition_next"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="52dp"
         android:layout_marginHorizontal="20dp"
-        android:layout_marginBottom="44dp"
-        android:textSize="16sp"
-        android:background="@drawable/bg_main_green_8"
-        android:elevation="8dp"
-        android:text="다음"
-        android:fontFamily="@font/pretendard_700"
-        android:textStyle="bold"
-        app:backgroundTint="@null"
+        android:layout_marginBottom="24dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="@color/main_green"
+        app:cardCornerRadius="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
-    
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_btn_apply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/pretendard_700"
+            android:gravity="center"
+            android:text="다음"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

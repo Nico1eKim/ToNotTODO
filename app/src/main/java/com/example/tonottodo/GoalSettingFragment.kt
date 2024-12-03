@@ -1,5 +1,6 @@
 package com.example.tonottodo
 
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.Spannable
