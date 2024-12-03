@@ -161,7 +161,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
                 android:columnCount="2"
-                android:rowCount="3"
+                android:rowCount="4"
                 app:layout_constraintTop_toBottomOf="@id/cl_my_page_sub_top_bar">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -182,8 +182,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="13dp"
-                        android:text="킹왕짱 대학생 되기"
                         android:fontFamily="@font/pretendard_700"
+                        android:text="킹왕짱 대학생 되기"
                         android:textColor="@color/gray_700"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -222,8 +222,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="13dp"
-                        android:text="건강한 식습관 형성하기"
                         android:fontFamily="@font/pretendard_700"
+                        android:text="건강한 식습관 형성하기"
                         android:textColor="@color/gray_700"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -262,8 +262,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="13dp"
-                        android:text="갓생 개발자 되기"
                         android:fontFamily="@font/pretendard_700"
+                        android:text="갓생 개발자 되기"
                         android:textColor="@color/gray_700"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -302,8 +302,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="13dp"
-                        android:text="게임 중독 벗어나기"
                         android:fontFamily="@font/pretendard_700"
+                        android:text="게임 중독 벗어나기"
                         android:textColor="@color/gray_700"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -342,8 +342,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="13dp"
-                        android:text="킹왕짱 헬스인 되기"
                         android:fontFamily="@font/pretendard_700"
+                        android:text="킹왕짱 헬스인 되기"
                         android:textColor="@color/gray_700"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -382,8 +382,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="13dp"
-                        android:text="꼼꼼 인간 되기"
                         android:fontFamily="@font/pretendard_700"
+                        android:text="꼼꼼 인간 되기"
                         android:textColor="@color/gray_700"
                         android:textSize="14sp"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -401,6 +401,86 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/tv_my_page_seesaw6" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_my_page_seesaw7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_gray_8"
+                    android:paddingVertical="11dp">
+
+                    <TextView
+                        android:id="@+id/tv_my_page_seesaw7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:fontFamily="@font/pretendard_700"
+                        android:text="꼼꼼 인간 되기"
+                        android:textColor="@color/gray_700"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/iv_my_page_seesaw7"
+                        android:layout_width="123dp"
+                        android:layout_height="133dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginBottom="11dp"
+                        android:src="@drawable/img_seesaw_22"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_my_page_seesaw7" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_my_page_seesaw8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_row="3"
+                    android:layout_rowWeight="1"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_gravity="fill"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bg_gray_8"
+                    android:paddingVertical="11dp">
+
+                    <TextView
+                        android:id="@+id/tv_my_page_seesaw8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:fontFamily="@font/pretendard_700"
+                        android:text="꼼꼼 인간 되기"
+                        android:textColor="@color/gray_700"
+                        android:textSize="14sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/iv_my_page_seesaw8"
+                        android:layout_width="123dp"
+                        android:layout_height="133dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginBottom="11dp"
+                        android:src="@drawable/img_seesaw_22"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tv_my_page_seesaw8" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </GridLayout>
